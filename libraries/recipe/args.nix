@@ -8,5 +8,5 @@ in
       inputs,
       extraSpecialArgs ? { },
     }:
-    { inherit inputs lib; } // { lib' = lib; } // extraSpecialArgs;
+    { inherit inputs lib; } // extraSpecialArgs;
 }
